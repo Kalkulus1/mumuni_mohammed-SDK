@@ -1,6 +1,9 @@
+import os
+from dotenv import load_dotenv
 from lotr_sdk.lotr import Lotr
 
-api_key = "T4GEP0BkCehqugI5QRYX"
+load_dotenv()
+api_key = os.environ.get("API_KEY")
 
 lotr = Lotr(api_key=api_key)
 
