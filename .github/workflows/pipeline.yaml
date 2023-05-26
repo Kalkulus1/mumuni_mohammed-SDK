@@ -51,7 +51,8 @@ jobs:
         env:
           API_KEY: ${{ secrets.API_KEY }}
         run: |
-          python3 -m pytest
+          pip install pytest
+          pytest
 
       - name: Automatic Tagging of Releases
         uses: rymndhng/release-on-push-action@master
