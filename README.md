@@ -87,6 +87,12 @@ Make your changes and add tests if applicable.
 ```sh
 pytest
 ```
+
+### Lint Code
+Use black to format your code.
+```sh
+black .
+```
 Create a pull request with your changes.
 
 ### License
