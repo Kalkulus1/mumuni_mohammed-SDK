@@ -11,7 +11,7 @@ from os import path, getenv
 from setuptools import setup, find_packages
 
 # Package meta-data.
-NAME = "lotr_sdk"
+NAME = "kalkulus_sdk"
 DESCRIPTION = "A python library to consume LOTR API"
 EMAIL = "mumunim10@gmail.com"
 AUTHOR = "Mumuni Mohammed"

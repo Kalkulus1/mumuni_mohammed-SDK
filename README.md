@@ -1,9 +1,9 @@
 # lotr-sdk
-Python SDK for [lotr-api](https://the-one-api.dev/documentation) View on [pypi.python.org](https://pypi.org/project/lotr-sdk/)
+Python SDK for [lotr-api](https://the-one-api.dev/documentation) View on [pypi.python.org](https://test.pypi.org/project/kalkulus-sdk/)
 
 ## Installation
 ```sh
-pip install lotr-sdk
+pip install -i https://test.pypi.org/simple/ kalkulus-sdk
 ```
 
 ## Use Lotr-SDK
