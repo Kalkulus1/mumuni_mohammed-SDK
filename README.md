@@ -93,7 +93,7 @@ Use black to format your code.
 ```sh
 black .
 ```
-Create a pull request with your changes.
+Create a pull request with your changes. If the pipeline checks pass, we will merge your code.
 
 ### License
 This project is licensed under the MIT License.
