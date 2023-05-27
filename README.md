@@ -19,8 +19,6 @@ If the Lord of the Rings API requires authentication with an api key.
 Refer to the API documentation for authentication details. You just have to signup and get an api key.
 
 ```python
-from lotr.ring import Ring
-
 from lotr_sdk.lotr import Lotr
 
 api_key = "your-api-key"
@@ -35,7 +33,6 @@ print(lotr.qoute.get(id="5cd96e05de30eff6ebcceba8"))
 print(lotr.movie.list())
 print(lotr.movie.get(id="5cd95395de30eff6ebccde56"))
 print(lotr.movie.get_qoutes(id="5cd95395de30eff6ebccde56"))
-
 ```
 
 ## Static Usage
